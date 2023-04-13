@@ -1,0 +1,93 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "首页",
+      "url": "/"
+    },
+    {
+      "id": 2,
+      "name": "拓扑视图",
+      "url": "/topologize"
+    },
+    {
+      "id": 3,
+      "name": "设备中心",
+      "url": "/deviceCenter"
+    },
+    {
+      "id": 4,
+      "name": "告警中心",
+      "url": "/Alarm",
+      "showSubMenu": false,
+      "children": [
+        {
+          "id": 41,
+          "name": "实时告警",
+          "url": "/Alarm/realtimeAlarm"
+        },
+        {
+          "id": 42,
+          "name": "历史告警",
+          "url": "/Alarm/HistoryAlarm"
+        },
+        {
+          "id": 43,
+          "name": "告警配置",
+          "url": "/Alarm/Config"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "视质轮巡",
+      "url": "/VideoPartol",
+      "showSubMenu": false,
+      "children": [
+        {
+          "id": 51,
+          "name": "轮巡任务",
+          "url": "/VideoPartol/Task"
+        },
+        {
+          "id": 52,
+          "name": "筛选结果",
+          "url": "/videoPartol/Result"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "轮巡考核",
+      "url": "/VideoPartolAssess",
+      "showSubMenu": false,
+      "children": [
+        {
+          "id": 60,
+          "name": "考核查询",
+          "url": "/VideoPartolAssess/Query"
+        },
+        {
+          "id": 61,
+          "name": "考核汇总",
+          "url": "/VideoPartolAssess/Statistic"
+        },
+        {
+          "id": 62,
+          "name": "告警配置",
+          "url": "/Alarm/Config"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "id": 8,
+      "name": "Help",
+      "url": "/help"
+    }
+  ]
+}
