@@ -1,18 +1,20 @@
 <template>
-  <div class="page-header">
-    <div class="menu-control">
-      <span class="control" @click="showMenu">|||</span>
-      <span>{{ menuName }}</span>
-    </div>
-    <div class="user-helper">
-      <div class="more-application">
-        <span>更多应用</span>
-        <span class="app-direction">v</span>
+  <div class="outer">
+    <div class="page-header">
+      <div class="menu-control">
+        <span class="control" @click="showMenu">|||</span>
+        <span>{{ menuName }}</span>
       </div>
-      <div class="other">
-        <span><router-link to="/content">content</router-link></span>
-        <span><router-link to="/about">About</router-link></span>
-        <span>注销</span>
+      <div class="user-helper">
+        <div class="more-application">
+          <span>更多应用</span>
+          <span class="app-direction">v</span>
+        </div>
+        <div class="other">
+          <span><router-link to="/content">content</router-link></span>
+          <span><router-link to="/about">About</router-link></span>
+          <span>注销</span>
+        </div>
       </div>
     </div>
   </div>
@@ -61,14 +63,19 @@ export default {
 </script>
 
 <style scoped>
+.outer {
+  display: block;
+  width: 100%;
+}
 .page-header {
   display: flex;
-  /* width: 100vw; */
+  /* width: 100%; */
   height: 80px;
   flex-direction: row;
   align-items: center;
   background-color: wheat;
   flex-grow: 1;
+  justify-content: space-between;
 }
 
 .page-header .menu-control > span {

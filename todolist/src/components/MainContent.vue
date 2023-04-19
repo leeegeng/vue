@@ -7,14 +7,14 @@
 </template>
 
 <script>
-import PageContent from './views/PageContent.vue'
+// import PageContent from './views/PageContent.vue'
 import PageHeader from './PageHeader.vue'
 
 export default {
   name: 'MainContent',
   components: {
     PageHeader,
-    PageContent,
+    // PageContent,
   },
 }
 </script>
@@ -22,7 +22,7 @@ export default {
 <style scoped>
 .main {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-color: skyblue;
   display: flex;
   flex-direction: row;
