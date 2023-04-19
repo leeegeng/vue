@@ -1,0 +1,76 @@
+[
+	{
+		"key": "notice",
+		"componentName": "Notice",
+		"cnName": "通知",
+		"useStore": false,
+		"isFullScreen": false,
+		"moreInfo": true,
+		"isEmpty": false
+	},
+	{
+		"key": "lastest_patrol_inspection",
+		"componentName": "LastestPatrolInspection",
+		"cnName": "最新巡检结果",
+		"useStore": false,
+		"isFullScreen": false,
+		"hiddenFullScreen": true,
+		"isEmpty": false
+	},
+	{
+		"key": "device_Weekly_Increment_trend",
+		"componentName": "DeviceWeeklyIncrementTrend",
+		"cnName": "设备数周增量变化趋势",
+		"useStore": false,
+		"isFullScreen": false,
+		"isEmpty": false
+	},
+	{
+		"key": "real_time_alarm",
+		"componentName": "RealTimeAlarm",
+		"cnName": "设备实时告警",
+		"useStore": false,
+		"isFullScreen": false,
+		"isEmpty": false
+	},
+	{
+		"key": "topographic_map",
+		"componentName": "BasicTopo",
+		"cnName": "网状拓扑图",
+		"useStore": false,
+		"isFullScreen": false,
+		"isEmpty": false
+	},
+	{
+		"key": "video_plath",
+		"componentName": "videoPlath",
+		"cnName": "视频平台状态",
+		"useStore": false,
+		"isFullScreen": false,
+		"isEmpty": false
+	},
+	{
+		"key": "real_time_statistics",
+		"componentName": "RealTimeStatistics",
+		"cnName": "设备实时统计",
+		"useStore": false,
+		"isFullScreen": false,
+		"isEmpty": false
+	},
+	{
+		"key": "assessment_ranking",
+		"componentName": "AssessmentRanking",
+		"cnName": "考核排行榜",
+		"useStore": false,
+		"isFullScreen": false,
+		"isEmpty": false
+	},
+	{
+		"key": "assessment_delay",
+		"componentName": "AssessmentDelay",
+		"cnName": "考核时延图表",
+		"useStore": false,
+		"isFullScreen": false,
+		"isEmpty": false
+	}
+]
